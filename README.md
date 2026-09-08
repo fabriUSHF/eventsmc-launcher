@@ -1,1 +1,0 @@
-# eventsmc-launcher
