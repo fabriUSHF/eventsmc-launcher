@@ -23,6 +23,154 @@
 @media(max-width:680px){.shell{width:min(100% - 32px,540px)}.header-inner{height:62px;gap:10px}.logo{width:31px;height:31px}.brand-name strong{font-size:12px}.brand-name small{font-size:7px}.nav{display:none}.actions{margin-left:auto}.actions .btn{min-height:35px;padding:0 9px;font-size:9px}.actions .btn svg{width:14px;height:14px}.hero{grid-template-columns:1fr;gap:4px;min-height:0;padding-block:47px 30px}.hero:after{width:350px;height:350px;right:-130px;top:115px}.hero h1{font-size:clamp(43px,12vw,60px);letter-spacing:-2.8px}.hero-copy>p{font-size:11px}.hero-art{width:min(77vw,330px);margin:0 auto;grid-row:1}.hero-copy{grid-row:2}.art-label{left:-1%;top:23%}.art-stamp{right:0;bottom:12%;font-size:7px}.hero-actions .btn{min-height:42px;padding-inline:12px;font-size:9px}.proof{font-size:8px;gap:9px 12px}.trustbar{grid-template-columns:1fr}.trust-item{padding:12px 7px}.trust-item+.trust-item{border-left:0;border-top:1px solid rgba(255,255,255,.08)}.section{padding-block:49px}.section-heading{display:block}.section-heading p{margin-top:9px}.feature-grid{grid-template-columns:1fr}.feature{min-height:0;padding:15px}.feature-icon{margin-bottom:12px}.feature p{max-width:none}.install{padding:16px}.install-head{gap:10px}.install-grid{grid-template-columns:1fr}.smart-window{order:-1}.steps{grid-template-columns:1fr 1fr}.step{min-height:120px;padding:12px}.install-download{align-items:stretch;flex-direction:column}.install-download .btn{width:100%}.community{align-items:flex-start;flex-wrap:wrap;padding:17px}.community-logo{width:45px;height:45px}.community-logo .logo{width:31px;height:31px}.community-copy{min-width:calc(100% - 70px)}.community-copy h2{font-size:14px}.community .btn{width:100%}.faq{grid-template-columns:1fr}.footer{flex-direction:column}}
 @media(max-width:390px){.actions{gap:5px}.actions .btn{padding-inline:7px}.hero-art{width:72vw}.hero-actions{align-items:stretch;flex-direction:column}.hero-actions .btn{width:100%}.steps{grid-template-columns:1fr}.step{min-height:0}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+/* Tipografía y acabado final */
+body{background:radial-gradient(ellipse at 72% 7%,rgba(255,255,255,.045),transparent 31%),#101113}
+.header{background:rgba(16,17,19,.92)}
+.header-inner{height:78px}
+.brand{gap:12px}
+.logo{width:39px;height:39px}
+.brand-name strong{font-size:15px}
+.brand-name small{font-size:9px}
+.nav{gap:31px}
+.nav a{font-size:12px}
+.btn{min-height:45px;padding-inline:17px;font-size:12px;border-radius:11px}
+.btn svg{width:17px;height:17px}
+.hero{min-height:610px;padding-block:70px 78px;gap:42px}
+.hero h1{font-size:clamp(58px,6.4vw,84px);letter-spacing:-4.2px}
+.hero-copy>p{max-width:500px;font-size:15px;line-height:1.9}
+.kicker{font-size:10px;letter-spacing:1.75px}
+.hero-actions{margin-top:29px}
+.hero-actions .btn{min-height:51px;padding-inline:19px}
+.proof{margin-top:26px;font-size:10px;gap:18px}
+.hero-art{width:min(100%,500px)}
+.hero-logo{width:59%}
+.orbit{inset:5%;border-color:rgba(255,255,255,.14);box-shadow:0 0 50px rgba(255,255,255,.035)}
+.art-label{font-size:9px}
+.art-stamp{font-size:9px;padding:10px 13px}
+.trust-item{padding:21px 25px}
+.trust-icon{width:40px;height:40px;border-radius:12px}
+.trust-icon svg{width:18px;height:18px}
+.trust-item strong{font-size:12px}
+.trust-item small{font-size:10px}
+.section{padding-block:88px}
+.section-heading{margin-bottom:27px}
+.section-label{font-size:9px;margin-bottom:11px}
+.section-heading h2{font-size:clamp(29px,3.2vw,38px);letter-spacing:-1.4px}
+.section-heading p{font-size:12px;line-height:1.85}
+.feature-grid{gap:14px}
+.feature{min-height:182px;padding:23px;border-radius:15px;background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(255,255,255,.008) 60%),#151719}
+.feature-icon{width:41px;height:41px;margin-bottom:19px;border-radius:12px}
+.feature-icon svg{width:19px;height:19px}
+.feature h3{font-size:14px;margin-bottom:8px}
+.feature p{font-size:11px;line-height:1.8}
+.install{padding:31px;border-radius:18px;background:radial-gradient(ellipse at 10% 0,rgba(255,255,255,.035),transparent 52%),linear-gradient(130deg,#191b1f,#121416)}
+.install-head{gap:35px;margin-bottom:25px}
+.install-head h2{font-size:clamp(30px,3.3vw,40px);letter-spacing:-1.6px}
+.install-head p{font-size:12px;line-height:1.9}
+.install-grid{gap:16px}
+.smart-info{padding:23px;border-radius:14px}
+.smart-info h3{font-size:15px;margin-bottom:12px}
+.smart-info>p{font-size:12px;line-height:1.9}
+.smart-source{font-size:10px}
+.smart-window{padding:22px;border-radius:14px}
+.smart-title{font-size:12px;margin-bottom:15px}
+.defender-mark{width:32px;height:32px}
+.defender-mark svg{width:17px;height:17px}
+.smart-window h3{font-size:17px}
+.smart-window>p{font-size:11px;line-height:1.8}
+.smart-details{padding:13px;border-radius:10px}
+.smart-details div{font-size:10px}
+.smart-details b{font-size:10px}
+.smart-actions span{font-size:9px;padding:9px 11px}
+.steps{gap:11px;margin-top:15px}
+.step{min-height:156px;padding:18px;border-radius:13px}
+.step-number{width:30px;height:30px;margin-bottom:15px;font-size:9px}
+.step h3{font-size:12px;margin-bottom:8px}
+.step p{font-size:10px;line-height:1.8}
+.safety{margin-top:15px;padding:14px 16px;font-size:10px;line-height:1.8}
+.safety svg{width:17px;height:17px}
+.install-download{margin-top:17px;padding-top:17px;font-size:11px}
+.install-download .btn{min-height:43px}
+.community{gap:22px;padding:29px;border-radius:18px}
+.community-logo{width:64px;height:64px;border-radius:17px}
+.community-logo .logo{width:44px;height:44px}
+.community-copy small{font-size:9px}
+.community-copy h2{font-size:21px;letter-spacing:-.65px}
+.community-copy p{font-size:11px;line-height:1.75}
+.community .btn{min-height:47px}
+.faq{gap:13px;margin-top:19px}
+.faq details{padding:18px;border-radius:13px}
+.faq summary{font-size:12px}
+.faq details p{font-size:11px;line-height:1.85}
+.footer{padding-block:24px 31px;font-size:9px}
+@media(max-width:920px){
+  .hero{min-height:540px;gap:20px}
+  .hero h1{font-size:clamp(51px,6.8vw,72px);letter-spacing:-3.3px}
+  .hero-copy>p{font-size:13px}
+  .trust-item{padding-inline:15px}
+  .section{padding-block:68px}
+  .install{padding:25px}
+}
+@media(max-width:680px){
+  html,body{max-width:100%;overflow-x:clip}
+  .shell{width:calc(100vw - 32px);max-width:calc(100vw - 32px);margin-left:16px;margin-right:16px}
+  .header-inner{height:66px}
+  .header-inner,.actions{min-width:0}
+  .logo{width:34px;height:34px}
+  .brand-name strong{font-size:13px}
+  .brand-name small{font-size:8px}
+  .actions .btn{min-height:39px;padding-inline:10px;font-size:10px}
+  .actions .btn svg{width:15px;height:15px}
+  .actions .btn:first-child{width:38px;padding:0;font-size:0}
+  .hero{grid-template-columns:minmax(0,1fr);padding-block:48px 36px;gap:2px}
+  .hero-copy{width:100%;min-width:0}
+  .hero h1{font-size:clamp(45px,11vw,58px);letter-spacing:-2.8px}
+  .hero-copy>p{font-size:13px;line-height:1.85}
+  .hero-art{width:min(83vw,360px);max-width:100%}
+  .hero-actions .btn{min-height:46px;font-size:11px}
+  .proof{font-size:9px;gap:11px}
+  .trust-item{padding:14px 8px}
+  .trust-icon{width:36px;height:36px}
+  .trust-item strong{font-size:11px}
+  .trust-item small{font-size:9px}
+  .section{padding-block:53px}
+  .section-heading h2{font-size:30px}
+  .section-heading p{font-size:11px}
+  .feature{padding:17px;min-height:0}
+  .feature-icon{width:37px;height:37px;margin-bottom:13px}
+  .feature h3{font-size:13px}
+  .feature p{font-size:11px}
+  .install{padding:18px}
+  .install-head h2{font-size:30px}
+  .install-head p,.smart-info>p{font-size:11px}
+  .smart-window h3{font-size:16px}
+  .smart-window>p{font-size:11px}
+  .step{padding:14px;min-height:137px}
+  .step h3{font-size:11px}
+  .step p{font-size:10px}
+  .community{padding:19px;gap:14px}
+  .community-logo{width:51px;height:51px}
+  .community-logo .logo{width:36px;height:36px}
+  .community-copy h2{font-size:17px}
+  .community-copy p{font-size:10px}
+  .community .btn{min-height:44px}
+  .faq summary{font-size:11px}
+  .faq details p{font-size:10px}
+}
+@media(max-width:390px){
+  .shell{width:calc(100vw - 28px);max-width:calc(100vw - 28px);margin-left:14px;margin-right:14px}
+  .header-inner{gap:7px}
+  .actions{gap:5px}
+  .actions .btn{min-height:34px;padding-inline:8px;font-size:9px;white-space:nowrap}
+  .actions .btn:first-child{width:36px;padding:0;font-size:0}
+  .hero h1{font-size:44px}
+  .hero-art{width:min(78vw,320px)}
+  .hero-actions{align-items:stretch;flex-direction:column}
+  .hero-actions .btn{width:100%}
+  .proof{align-items:flex-start;flex-direction:column}
+  .art-stamp{right:3%;max-width:55%;text-align:center}
+  .step{min-height:0}
+}
 </style>
 </head>
 <body>
